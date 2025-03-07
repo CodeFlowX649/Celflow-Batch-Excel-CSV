@@ -1,0 +1,31 @@
+java -jar Celflow.jar -csv_merge  --合并csv
+java -jar Celflow.jar -csv_removal  --csv 相同数据行去重/删除全是空值的行
+java -jar Celflow.jar -csv_format yyyy-MM-dd yyyy/MM/dd Workmonth --csv 相同数据行去重/删除全是空值的行
+java -jar Celflow.jar -csv_filter Memo --csv 按某一列的值拆分成多个 CSV 文件（比如按“部门”拆分）
+java -jar Celflow.jar -csv_columncounter Memo --csv 统计某列的唯一值个数（如不同的“城市”数量）
+java -jar Celflow.jar -csv_to_execl  --csv csv转execl
+java -jar Celflow.jar -excel_to_csv  --execl  execl转csv
+
+
+1️⃣ 批量合并 CSV 文件
+需求：多个 CSV 文件合并成一个
+逻辑：选择多个 CSV 文件，按列名对齐合并
+文件格式支持：UTF-8 / GBK（避免乱码）
+
+2️⃣ 去重 / 清理空数据
+去重：相同数据行去重
+删除空行：删除全是空值的行
+
+3️⃣ 数据格式化
+统一日期格式
+
+4️⃣ 数据筛选 / 拆分
+按某一列的值拆分成多个 CSV 文件（比如按“部门”拆分）
+按某列的关键词筛选数据
+
+5️⃣ 数据统计（基础）
+统计某列的唯一值个数（如不同的“城市”数量）
+
+6️⃣ 数据导出 / 兼容性优化
+生成新的 CSV（不乱码）
+兼容 Excel / WPS
