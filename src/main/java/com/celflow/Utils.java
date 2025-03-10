@@ -76,8 +76,6 @@ public class Utils {
             try {
                 filePath = selectedFile.getAbsolutePath();
             } catch (Exception e) {
-//                System.out.println("未选则有效文件 程序退出！！！");
-//                System.out.println(ANSI_RED + "未选择有效文件 程序退出！！！" + ANSI_RESET);
                 throw new IllegalArgumentException(ANSI_RED + "未选择有效文件 程序退出！！！" + ANSI_RESET);
 
             }
