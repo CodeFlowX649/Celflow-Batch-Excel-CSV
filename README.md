@@ -23,7 +23,7 @@
 ### 方式 2：使用 JAR 包（需安装 Java）
 ```bash
 # 下载jar包
-📥 [点击下载最新版本](https://github.com/Liuyupenggiamlesfsefsfsefes/Celflow-Batch-Excel-CSV/tree/master)
+📥 [点击下载最新版本](https://github.com/Liuyupenggiamlesfsefsfsefes/Celflow-Batch-Excel-CSV/tree/main)
 
 # 运行工具
 java -jar celflow.jar --help
