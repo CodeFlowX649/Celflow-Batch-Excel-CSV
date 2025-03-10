@@ -18,27 +18,21 @@
 ## 📌 安装
 
 ### 方式 1：直接下载源码文件（推荐）
-📥 [点击下载最新版本](https://github.com/Liuyupenggiamlesfsefsfsefes/Celflow-Batch-Excel-CSV/tree/master)
+📥 [点击下载最新版本](https://github.com/CodeFlowX649/Celflow-Batch-Excel-CSV/tree/master)
 
 ### 方式 2：使用 JAR 包（需安装 Java）
+📥 [点击下载最新版本](https://github.com/CodeFlowX649/Celflow-Batch-Excel-CSV/tree/main)
+
+
+# 运行工具(命令查看)
 ```bash
-# 下载jar包
-📥 [点击下载最新版本](https://github.com/Liuyupenggiamlesfsefsfsefes/Celflow-Batch-Excel-CSV/tree/main)
-
-# 运行工具
 java -jar celflow.jar --help
-
-
-# 示例
 
 ```
 
 
 ### 方式 3：使用源码运行（适合开发者）
 ```bash
-git clone https://github.com/你的GitHub用户名/Celflow.git
-cd Celflow
-mvn package
 java -jar target/celflow.jar --help
 ```
 
@@ -85,10 +79,10 @@ java -jar Celflow.jar -excel_to_csv                                             
 欢迎 Star ⭐ 和 PR 贡献代码！
 
 ```bash
-git clone https://github.com/你的GitHub用户名/Celflow.git
+git clone https://github.com/CodeFlowX649/Celflow.git
 ```
 
-如有问题，请在 [Issues](https://github.com/Liuyupenggiamlesfsefsfsefes/Celflow-Batch-Excel-CSV/issues) 反馈！
+如有问题，请在 [Issues](https://github.com/CodeFlowX649/Celflow-Batch-Excel-CSV/issues) 反馈！
 
 ---
 
