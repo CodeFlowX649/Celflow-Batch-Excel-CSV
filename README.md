@@ -17,13 +17,13 @@
 
 ## 📌 安装
 
-### 方式 1：直接下载可执行文件（推荐）
-📥 [点击下载最新版本](https://github.com/Liuyupenggiamlesfsefsfsefes/Celflow-Batch-Excel-CSV.git)
+### 方式 1：直接下载源码文件（推荐）
+📥 [点击下载最新版本](https://github.com/Liuyupenggiamlesfsefsfsefes/Celflow-Batch-Excel-CSV/tree/master)
 
 ### 方式 2：使用 JAR 包（需安装 Java）
 ```bash
-# 下载安装包
-wget https://github.com/你的GitHub用户名/Celflow/releases/download/v1.0/celflow.jar
+# 下载jar包
+📥 [点击下载最新版本](https://github.com/Liuyupenggiamlesfsefsfsefes/Celflow-Batch-Excel-CSV/tree/main)
 
 # 运行工具
 java -jar celflow.jar --help
