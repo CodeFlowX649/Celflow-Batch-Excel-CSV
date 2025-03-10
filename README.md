@@ -33,9 +33,6 @@ java -jar celflow.jar --help
 
 ### 方式 3：使用源码运行（适合开发者）
 ```bash
-git clone https://github.com/你的GitHub用户名/Celflow.git
-cd Celflow
-mvn package
 java -jar target/celflow.jar --help
 ```
 
@@ -82,7 +79,7 @@ java -jar Celflow.jar -excel_to_csv                                             
 欢迎 Star ⭐ 和 PR 贡献代码！
 
 ```bash
-git clone https://github.com/你的GitHub用户名/Celflow.git
+git clone https://github.com/Liuyupenggiamlesfsefsfsefes/Celflow.git
 ```
 
 如有问题，请在 [Issues](https://github.com/Liuyupenggiamlesfsefsfsefes/Celflow-Batch-Excel-CSV/issues) 反馈！
