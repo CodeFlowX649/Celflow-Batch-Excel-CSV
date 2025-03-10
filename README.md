@@ -24,12 +24,9 @@
 📥 [点击下载最新版本](https://github.com/Liuyupenggiamlesfsefsfsefes/Celflow-Batch-Excel-CSV/tree/main)
 
 
-# 运行工具
+# 运行工具(命令查看)
 ```bash
 java -jar celflow.jar --help
-
-
-# 示例
 
 ```
 
